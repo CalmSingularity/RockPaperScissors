@@ -1,0 +1,18 @@
+table {
+	width: 720px;
+	height: 520px;
+	margin: 96px auto;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 32px;
+}
+th {
+	width: 360px;
+	height: 120px;
+}
+td.play-again {
+	background-color: lightgray;
+}
+td.play-again:hover {
+	background-color: gray;
+}
