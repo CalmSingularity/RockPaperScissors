@@ -95,8 +95,8 @@ function getWinner(userChoise, computerChoise) {
 }
 
 function playAgain() {
-	document.querySelector(".user." + userChoise).style.background = "rgba(0,0,0,0)";
-	document.querySelector(".computer." + computerChoise).style.background = "rgba(0,0,0,0)";
-	document.querySelector("th.user").style.background = "rgba(0,0,0,0)";
-	document.querySelector("th.computer").style.background = "rgba(0,0,0,0)";
+	var elements = document.querySelectorAll(".user, .computer");
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.background = "rgba(0,0,0,0)";
+    }
 }
